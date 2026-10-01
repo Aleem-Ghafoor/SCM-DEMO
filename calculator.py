@@ -1,7 +1,10 @@
-def calculator_discount(price, if_member):
+def calculator_discount(price, customer_type):
 
-	if if_member:
-		return price*0.25
+	if customer_type == "premium"
+		return price*0.30
+
+	if customer_type == "member":
+		return price*0.20
 
 	return price*10
 
