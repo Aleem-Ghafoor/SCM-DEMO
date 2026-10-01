@@ -1,6 +1,6 @@
 def calculator_discount(price, customer_type):
 
-	if customer_type == "premium"
+	if customer_type == "premium":
 		return price*0.30
 
 	if customer_type == "member":
