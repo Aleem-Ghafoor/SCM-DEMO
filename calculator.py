@@ -1,4 +1,4 @@
 def calculator_discount(price):
 
-	return price*0.10
+	return price*0.15
 
